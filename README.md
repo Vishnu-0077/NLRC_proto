@@ -31,8 +31,8 @@ Each subdirectory has its own `README.md` with hyperparameters, API notes, and d
 |-----------|------|-----------|-------------------|
 | [**RC/**](RC/) | Baseline reservoir computing | Random recurrent `W`, leaky integrator, `tanh`, ridge readout | Mackey–Glass, Lorenz (CSV) |
 | [**NLRC/**](NLRC/) | Lightweight “reservoir” without large `W` | Scalar input → chained **GLS/tent map** → small feature vector → ridge | Mackey–Glass, logistic map |
-| [**NGRC/**](NGRC/) | Polynomial reservoir computing | Lag window + `PolynomialFeatures` + standardized ridge | Mackey–Glass (Excel demo) |
-| [**Neurochaos/**](Neurochaos/) | Chaos-inspired **classification** | GLS iteration → **TTSS** features → SVM | Iris (~94% accuracy) |
+| [**NGRC/**](NGRC/) | Polynomial reservoir computing | Lag window + `PolynomialFeatures` + standardized ridge | Mackey–Glass |
+| [**Neurochaos/**](Neurochaos/) | Chaos-inspired **classification** | GLS iteration → **TTSS** features → SVM | Iris |
 
 ---
 
