@@ -9,7 +9,7 @@ The work centers on **Generalized Lipschitz System (GLS) / tent-map** nonlineari
 ## Repository layout
 
 ```
-ugrp_github/
+NLRC proto/
 ├── README.md                 ← this file (overview of the whole tree)
 ├── RC/                       ← classic Echo State Networks (ESN)
 ├── NLRC/                     ← Nonlinear Reservoir Computing variants
