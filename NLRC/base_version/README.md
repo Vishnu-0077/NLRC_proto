@@ -10,7 +10,11 @@ This script trains an **NLRC** (Nonlinear Reservoir Computing) model on a Mackey
 
 The plot below compares the first 10 test targets (**original**, blue) with model outputs (**predicted**, orange). The two curves overlap almost exactly, matching the very low MSE above.
 
-![Predicted vs actual](predicted_vs_actual.png)
+![Predicted vs actual (10 iterations)](predicted_vs_actual.png)
+
+For a longer recursive rollout (~50 iterations), predicted and actual still track closely at first, then begin to diverge after roughly 20–25 steps as error accumulates in the autoregressive loop:
+
+![Predicted vs actual (longer iterations)](predicted_vs_actual_long.png)
 
 ---
 
@@ -124,5 +128,6 @@ Returns the full series `x` (length `2000` by default).
 | File | Role |
 |------|------|
 | `code.py` | Model, data generation, training, prediction, MSE, plot |
-| `predicted_vs_actual.png` | Predicted vs. actual curve for the test segment |
-| `read.md` | This documentation |
+| `predicted_vs_actual.png` | Predicted vs. actual for ~10 iterations |
+| `predicted_vs_actual_long.png` | Predicted vs. actual for ~50 iterations |
+| `README.md` | This documentation |
