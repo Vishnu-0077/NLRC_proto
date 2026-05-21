@@ -1,4 +1,4 @@
-# NLRC — Nonlinear Reservoir Computing for Time Series
+# NLRC — Neurochaos learning-Reservoir Computing for Time Series
 
 This repository collects experiments on **chaotic time-series forecasting** using lightweight reservoir-style models. All variants share the same core idea: expand each scalar input through a **piecewise tent / GLS neuron map**, train a **ridge-regression readout** in closed form, then forecast **autoregressively** (each prediction becomes the next input).
 
