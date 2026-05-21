@@ -206,4 +206,4 @@ This tree is tracked as a git repository (remote: `NLRC_proto` on GitHub). Clone
 
 ## Summary
 
-**UGRP GitHub** collects parallel lines of research on **reservoir-style learning** for dynamics and simple classification: full **echo state networks**, **compact NLRC** models tied to GLS/tent maps, **NGRC** polynomial readouts, and **Neurochaos** symbolic features. Use this README for orientation; use each folder’s README and `code.py` for experiments and reproduction.
+**NLRC proto** collects parallel lines of research on **reservoir-style learning** for dynamics and simple classification: full **echo state networks**, **compact NLRC** models tied to GLS/tent maps, **NGRC** polynomial readouts, and **Neurochaos** symbolic features. Use this README for orientation; use each folder’s README and `code.py` for experiments and reproduction.
