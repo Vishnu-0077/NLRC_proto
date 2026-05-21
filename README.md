@@ -1,4 +1,4 @@
-# UGRP GitHub — Reservoir Computing & Chaos-Inspired ML
+# Reservoir Computing & Chaos-Inspired ML
 
 A collective research codebase for **undergraduate reservoir-computing experiments**: chaotic time-series forecasting, lightweight nonlinear reservoirs, polynomial readouts (NGRC), classic echo state networks, and GLS-neuron feature extraction for classification.
 
